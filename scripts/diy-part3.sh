@@ -27,6 +27,7 @@ mkdir package/community
 pushd package/community
 
 # Add Lienol's Packages
+git clone --depth=1 https://github.com/Lienol/openwrt-package -b other .
 git clone --depth=1 https://github.com/Lienol/openwrt-package
 rm -rf ../lean/luci-app-kodexplorer
 
